@@ -96,7 +96,7 @@ public class OverUnderGame {
         System.out.println("The numbers go from 1 to 13.");
         System.out.println("Guess if the second number will be higher or lower!");
         System.out.println("The next number will never be the same number.");
-        currentNumber = random.nextInt(13) + 1;
+        currentNumber = random.nextInt(13) + 1;  // Generates a random number from 1-13
         System.out.println("The first number is " + currentNumber + ".");
 
 
