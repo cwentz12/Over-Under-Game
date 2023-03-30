@@ -9,12 +9,12 @@ import java.util.concurrent.TimeUnit;
  * or lower than that number. The same number is never rolled twice.
  *
  * @author Chris Wentz
- * @version 1.0.0  [Last Updated: 03/25/2023]
+ * @version 1.0.1  [Last Updated: 03/30/2023]
  * */
 public class OverUnderGame {
 
     /**
-     * The main method displays the game instructions enters the main menu loop.
+     * The main method displays the game instructions and enters the main menu loop.
      * The player can choose to start a one player game, start a two player game
      * with a friend, or start a two player game against the computer, or quit the
      * program. Invalid commands print an error and prompt the user for new input.
